@@ -74,16 +74,14 @@ body {
 }
 
 .youtube {
-	display:block;
-	text-align:  center;        /* 中央寄せ */
+	margin:0 auto;
 	width: 1475px;
 	padding: 0;
 	box-sizing: border-box;
 }
 
 .youtube .inner {
-	display:block;
-	text-align:  center; 
+	margin:0 auto;
 	padding-top: 56.25%;
 	position: relative;
 	height: 0;
@@ -91,8 +89,7 @@ body {
 }
 
 .youtube .inner iframe {
-	display:block;
-	text-align:  center; 
+	margin:0 auto;
 	position: absolute;
 	top: 0;
 	left: 0;
