@@ -74,6 +74,8 @@ body {
 }
 
 .youtube {
+	display:block;
+	text-align:  center;        /* 中央寄せ */
 	width: 1475px;
 	padding: 0;
 	box-sizing: border-box;
