@@ -73,28 +73,12 @@ body {
   opacity: 0.35;
 }
 
-.youtube {
+
+.youtube iframe {
+  display: block;
+  text-align: center;
+  width:1475px;
 	margin:0 auto;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-.youtube {
-	padding: 0;
-	box-sizing: border-box;
-}
-
-.youtube .inner {
-	padding-top: 56.25%;
-	position: relative;
-	height: 0;
-	overflow: hidden;
-}
-
-.youtube .inner iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
 }
 
 .br-sp {
@@ -145,18 +129,19 @@ body {
     padding: 0px 0px;
     box-sizing: border-box;
     }
-  
-  .video{
-  position:relative;
-  width:1100px;
-}
-  
+
+    .youtube iframe {
+      display: block;
+      text-align: center;
+      width:1100px;
+      height: 619px;
+    	margin:0 auto;
+    }
+
     .sakuhin-text {
       width:1100px;
     }
-    .sakuhin-text {
-      width:1100px;
-    }
+
 
 
 }
@@ -170,11 +155,18 @@ body {
     padding: 0px 0px;
     box-sizing: border-box;
     }
-  
-    .video{
-  position:relative;
-  width:725px;
-}
+
+    .youtube iframe {
+      display: block;
+      text-align: center;
+      width:725px;
+      height: 408px;
+    	margin:0 auto;
+    }
+    .sakuhin-text {
+      width:725px;
+    }
+
 
 
 }
@@ -225,13 +217,17 @@ body {
     line-height: :0px;
     }
 
-.video{
-  position:relative;
-  width:600px;
-}
-    .sakuhin-text {
+    .youtube iframe {
+      display: block;
+      text-align: center;
       width:600px;
+      height: 338px;
+      margin:0 auto;
     }
+    .sakuhin-text {
+      width:400px;
+    }
+
 }
 
 @media screen and (max-width: 400px){
@@ -286,13 +282,17 @@ body {
       font-weight: 300;
     line-height: :0px;
     }
-  
-  
-  .video {
-      width:100%;
+
+
+    .youtube iframe {
+      display: block;
+      text-align: center;
+      width:320px;
+      height: 180px;
+      margin:0 auto;
     }
-  
-  
+
+
 
   .sakuhin-text {
       padding-top:30px;
