@@ -82,6 +82,8 @@ body {
 }
 
 .youtube .inner {
+	display:block;
+	text-align:  center; 
 	padding-top: 56.25%;
 	position: relative;
 	height: 0;
@@ -89,6 +91,8 @@ body {
 }
 
 .youtube .inner iframe {
+	display:block;
+	text-align:  center; 
 	position: absolute;
 	top: 0;
 	left: 0;
