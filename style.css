@@ -75,13 +75,20 @@ body {
 
 
 .video {
-  width=1475px;
-  height=830px;
   display: block;
   margin: 0 auto;
   max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
 }
-
+.video iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
 
 
 .br-sp {
