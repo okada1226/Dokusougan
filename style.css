@@ -74,7 +74,9 @@ body {
 }
 
 
-. {
+.video {
+  width=1475px;
+  height=830px;
   display: block;
   margin: 0 auto;
   max-width: 100%;
