@@ -74,16 +74,19 @@ body {
 }
 
 
-.video{
-  position:relative;
-  width:1475px;
+.movie-wrap {
+     position: relative;
+     padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+     height: 0;
+     overflow: hidden;
 }
-.video iframe{
-  position:absolute;
-  top:0;
-  right:0;
-  width:100%;
-  height:100%;
+ 
+.movie-wrap iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
 }
 
 
