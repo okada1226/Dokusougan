@@ -316,6 +316,11 @@ body {
         margin-bottom: 0px;
       }
 
+.youtube {
+	width:100%;
+	
+	}
+	
     .youtube iframe {
       display: block;
       text-align: center;
