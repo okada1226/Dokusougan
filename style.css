@@ -307,6 +307,7 @@ margin-top:17px;
   position: relative;
   padding-top: 56.25%;
   overflow: hidden;
+z-index:0;
 }
 
 .youtube-wrap iframe {
