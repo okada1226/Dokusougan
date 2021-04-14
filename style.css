@@ -319,6 +319,7 @@ z-index:0;
 }
 
 .youtube-wrap iframe {
+　margin-top:0px;
   position: absolute;
   top: 0;
   left: 0;
