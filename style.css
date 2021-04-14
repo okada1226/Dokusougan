@@ -81,6 +81,9 @@ body {
   opacity: 0.35;
 }
 
+.youtube-wrap {
+margin-top:20px;
+}
 
 .youtube-wrap iframe {
   display: block;
@@ -306,6 +309,7 @@ body {
 
 
 .youtube-wrap{
+　margin-top:0px;
   width:100%;
   height: 0;
   position: relative;
