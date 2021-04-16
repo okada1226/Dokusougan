@@ -455,7 +455,11 @@ header {
     width: 650px;
     }
 .youtube-wrap iframe {
+      display: block;
+      text-align: center;
       width:650px;
+      height: 408px;
+    	margin:0 auto;
     }
 .sakuhin-text {
         width:650px;
