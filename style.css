@@ -450,5 +450,13 @@ z-index:0;
   padding-bottom:70px;
   font-weight:500;
 }
+@media (orientation: landscape) and (max-width: 767px){
+header {
+    width: 650px;
+    }
+.youtube-wrap iframe {
+      width:650px;
+    }
+
 
 }
